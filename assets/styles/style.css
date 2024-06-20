@@ -290,3 +290,15 @@ html{
 .fa-check{
     color: rgb(16, 150, 4);
 }
+/*Контакты*/
+.kontacti .container{
+    margin-top: 100px;
+}
+.kontacti .container .soc{
+    display: flex;
+    justify-content: center;
+}
+.kontacti .container .soc svg{
+    width: 40px;
+    margin-right: 20px;
+}
