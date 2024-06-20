@@ -110,8 +110,6 @@ html{
     margin-bottom: 60px;
    
 }
-
-
 .kurs .container .woman-fitness{
     width: 612px;
     height: 500px;
@@ -120,4 +118,109 @@ html{
     background-position: center;
     border-radius: 20px;
     
+}
+/*Скилы*/
+.kyrsi{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.kyrsi .container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.kyrsi .container .choice-kurs{
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: 700;
+   text-align: center;
+}
+
+.kyrsi .container .kurs{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.kyrsi .container .kurs .frst{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.kyrsi .container .kurs .frst .woman-yo{
+    background: url(../img/1.png);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.kyrsi .container .kurs .frst .yo{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.kyrsi .container .kurs .scnd{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.kyrsi .container .kurs .scnd .woman-ras{
+    background: url(../img/3.png);
+    width: 238px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.kyrsi .container .kurs .scnd .ras{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.kyrsi .container .kurs .thd{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.kyrsi .container .kurs .thd .woman-hiit{
+    background: url(../img/4.png);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.kyrsi .container .kurs .thd .hiit{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
