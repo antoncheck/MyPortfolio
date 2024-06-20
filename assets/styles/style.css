@@ -226,7 +226,7 @@ html{
 
 /*Портфолио*/
 .howwork{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .howwork .container{
     display: flex;
@@ -256,15 +256,37 @@ html{
     font-weight: 500;
     margin-top: 10px;
 }
-.howwork .container .work .n1 h4{
-    
-}
-
 
 .n1{
-    width: 100px;
+    width: 240px;
 }
 
 .n1 img {
     max-width: 100%;
+}
+.n1 img{
+    border:solid 2px rgb(88, 86, 86);
+    border-radius: 10px;
+}
+.n1 img:hover{
+    border:solid 7px rgb(221, 125, 46);
+    transition: .2s;
+}
+.karyera{
+    margin-top: 100px;
+}
+.karyera .container .text .glavn{
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+.karyera .container .text .vtor{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.fa-check{
+    color: rgb(16, 150, 4);
 }
