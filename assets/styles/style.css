@@ -7,6 +7,7 @@ body{
     margin: 0 auto;
     padding: 0;
     font-family: 'Manrope' sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -22,9 +23,7 @@ html{
     
 }
 
-.header{
-    background-color: #6fd6ffc2;
-}
+
 .header .container{
     display: flex;
     justify-content: space-between;
@@ -382,4 +381,606 @@ html{
     background-color:#ff0000;
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+/*Адаптив*/
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+    .footer .container{
+        width: 95%;
+    }
+    .howwork {
+        margin-top: 50px;
+    }
+    .howwork .container .work{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .howwork .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kyrsi .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .kyrsi{
+        margin-top: 50px;
+    }
+    .kyrsi .container .kurs{
+        margin-top: 30px;
+    }
+    .kyrsi .container .kurs .frst,
+    .kyrsi .container .kurs .scnd,
+    .kyrsi .container .kurs .thd{
+        width: 300px !important;
+    }
+    .kurs .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kurs .container .fitnes .fitness-platform{
+        margin-top: 0;
+        text-align: center;
+    }
+    .kurs .container .fitnes .grind{
+        text-align: center;
+    }
+    .kurs .container .fitnes a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .kurs .container .woman-fitness{
+        margin-top: 70px;
+    }
+    .header .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .header .container .razdel .razdel-click{
+        margin-right: 40px;
+    }
+    .header .container .razdel .razdel-click:nth-child(1){
+        margin-left: 25px;
+    }
+    .header .container .razdel .razdel-click:nth-child(5){
+        margin-right: 0;
+    }
+    .personal .container{
+        width: 95%;
+    }
+    .personal .container .nametel{
+        width: calc(100%/1.7);
+    }
+    .personal .container .em{
+        width: calc(100%/1.7) !important;
+    }
+    .personal .container .our{
+        width: calc(100%/1.7) !important;
+    }
+    .personal .container .check{
+        width: calc(100%/1.7) !important;
+    }
+    .personal .container .agree{
+        width: calc(100%/1.7) !important;
+    }
+    .personal{
+        margin-top: 50px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 766px;
+    }
+    .personal .container .nametel{
+        width: calc(100%/1.3);
+    }
+    .personal .container .em{
+        width: calc(100%/1.3) !important;
+    }
+    .personal .container .our{
+        width: calc(100%/1.3) !important;
+    }
+    .personal .container .check{
+        width: calc(100%/1.3) !important;
+    }
+    .personal .container .agree{
+        width: calc(100%/1.3) !important;
+    }
+    .howwork .container .work{
+        width: 70%;
+    }
+    .kyrsi .container .kurs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .kyrsi .container .kurs .frst{
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .kyrsi .container .kurs .scnd{
+        margin-left: 10px;
+    }
+    .header .container .razdel a{
+        margin-right: 10px !important;
+    }
+    .header .container .icons{
+        width: calc(100%/6);
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  576px;
+    }
+    .footer .container .soc {
+        width: calc(100%/7);
+    }
+    .personal .container{
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .personal .container .persobalpl{
+        text-align: center;
+        line-height: 40px;
+    }
+    .personal .container .opis{
+        text-align: center;
+        font-size: 16px;
+    }
+    .personal .container .nametel{
+        width: calc(100%/1.08);
+    }
+    .personal .container .em{
+        width: calc(100%/1.08) !important;  
+    }
+    .personal .container .our{
+        width: calc(100%/1.08) !important;  
+    }
+    .personal .container .check{
+        width: calc(100%/1.08) !important;  
+    }
+    .personal .container .agree{
+        width: calc(100%/1.08) !important;  
+    }
+    .howwork .container .work{
+        width: 90%;
+    }
+    .kyrsi .container .kurs .frst{
+        margin-right: 0;
+    }
+    .kyrsi .container .kurs .scnd{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .kurs .container .woman-fitness{
+        width: 512px;
+        height: 430px;
+    }
+    .header .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header .container .icons a{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header .container .icons .icon .fa-magnifying-glass{
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .header .container .icons .icon .fa-cart-shopping{
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .header .container .icons .icon .fa-house{
+        height: 15px !important;
+        width: 16px !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  480px;
+        padding: 10px;
+    }
+    .kurs .container .woman-fitness{
+        width: 450px;
+        height: 380px;
+    }
+    
+    .header .container .logotype img{
+        width: 84px;
+        height: 15px;
+    }
+    .header .container .razdel .razdel-click{
+        font-size: 12px;
+    }
+    .header .container .razdel .razdel-click:nth-child(1){
+        margin-left: 0;
+    }
+    .header .container .razdel .razdel-click:nth-child(5){
+        margin-right: 0 !important;
+    }
+    .header .container .icons a{
+        height: 20px;
+        width: 20px;
+    }
+    .header .container .icons .icon .fa-magnifying-glass{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container .icons .icon .fa-cart-shopping{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container .icons .icon .fa-house{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container{
+        margin-bottom: 50px;
+    }
+    .kurs .container .fitnes .fitness-platform{
+        font-size: 42px;
+        line-height: 40px;
+    }
+    .kurs .container .fitnes .grind{
+        font-size: 16px;
+    }
+    .kurs .container .fitnes .choice{
+        width: 230px;
+        height: 50px;
+    }
+    .kyrsi .container .choice-kurs{
+        font-size: 32px;
+    }
+   
+    .kyrsi .container .kurs .frst{
+        width: 200px !important;
+        height: 240px !important;
+        margin-right: 10px;
+    }
+    .kyrsi .container .kurs .frst .woman-yo{
+        height: 181px !important;
+        width: 142px;
+        margin-top: 0;
+    }
+    .kyrsi .container .kurs .frst .yo{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .kyrsi .container .kurs .scnd{
+        width: 200px !important;
+        height: 240px !important;
+        margin-left: 10px;
+    }
+    .kyrsi .container .kurs .scnd .woman-ras{
+        width: 172px !important;
+        height: 171px !important;
+        margin-top: 0;
+    }
+    .kyrsi .container .kurs .scnd .ras{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .kyrsi .container .kurs .thd{
+        width: 200px !important;
+        height: 240px !important;
+    }
+    .kyrsi .container .kurs .thd .woman-hiit{
+        width: 152px !important;
+        height: 197px !important;
+        margin-top: 0;
+    }
+    .kyrsi .container .kurs .thd .hiit{
+        font-size: 16px;
+    }
+    .kyrsi .container .btn .all{
+        width: 230px;
+        height: 50px;
+    }
+    .kyrsi{
+        margin-bottom: 100px;
+    }
+    .howwork .container .big{
+        font-size: 32px;
+    }
+    .howwork .container .work h2{
+        font-size: 12px !important;
+    }
+    .howwork .container .work h3{
+        font-size: 16px !important;
+    }
+    .howwork .container .work h4{
+        font-size: 12px !important;
+    }
+    .personal .container .persobalpl{
+        font-size: 32px;
+    }
+    .personal .container .opis{
+        font-size: 13px;
+    }
+    .personal .container .nametel {
+        width: calc(100%/1.1);
+    }
+    .personal .container .nametel .name input{
+        width: 190px;
+    }
+    .personal .container .nametel .tel input{
+        width: 190px;
+    }
+    .personal .container .nametel h3{
+        font-size: 12px !important;
+    }
+    .personal .container .em h3{
+        font-size: 12px !important;
+    }
+    .personal .container .our{
+        font-size: 12px !important;
+    }
+    .personal .container .check label{
+        font-size: 12px !important;
+    }
+    .personal .container .agree label{
+        font-size: 12px !important;
+    }
+    .personal .container .continue{
+        width: 230px;
+        height: 50px;
+    }
+    .footer .container{
+        padding: 0;
+    }
+    
+    .footer .container .soc{
+        width: calc(100%/6);
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .container{
+        width:  300px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .header .container{
+        padding: 0 !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        display: block;
+    }
+    .header .container .logotype img{
+        width: 69px;
+        height: 13px;
+        
+    }
+    .header .container .logotype{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .header .container .razdel .razdel-click{
+        font-size: 10px !important;
+    }
+    .header .container .razdel{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .header .container .razdel .razdel-click:nth-child(3){
+        margin-right: 0 !important;
+    }
+    .header .container .icons{
+        position: absolute;
+        top: 1.2%;
+        display: block;
+        justify-content: end;
+    }
+    .kurs .container .fitnes .fitness-platform{
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .kurs .container .fitnes .grind{
+        font-size: 15px;
+        width: 98%;
+        margin-bottom: 0;
+    }
+    .kurs .container .fitnes .choice{
+        width: 200px;
+        height: 45px;
+    }
+    .kurs .container .woman-fitness{
+        width: 292px;
+        height: 240px;
+        margin-top: 0;
+
+    }
+    .kurs .container .fitnes{
+        width: auto;
+        
+    }
+    .kyrsi .container .kurs {
+        display: block;
+    }
+    .kyrsi .container{
+        padding: 0;
+    }
+    .kyrsi .container .choice-kurs{
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    
+    .kyrsi .container .kurs .frst{
+        width: 130px !important;
+        height: 190px !important;
+        position: relative;
+        left: 28%;
+    }
+    .kyrsi .container .kurs .frst .woman-yo{
+        height: 150px !important;
+        width: 117px;
+        margin-top: 5px;
+    }
+    .kyrsi .container .kurs .frst .yo{
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    .kyrsi .container .kurs .scnd{
+        width: 130px !important;
+        height: 190px !important;
+        position: relative;
+        left: 25%;
+    }
+    .kyrsi .container .kurs {
+        margin-top: 0px;
+    }
+    .kyrsi{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .kyrsi .container .kurs .scnd .woman-ras{
+        width: 123px !important;
+        height: 123px !important;
+        margin-top: 10px;
+    }
+    .kyrsi .container .kurs .scnd .ras{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .kyrsi .container .kurs .thd{
+        width: 130px !important;
+        height: 190px !important;
+        position: relative;
+        left: 28%;
+    }
+    .kyrsi .container .kurs .thd .woman-hiit{
+        width: 115px !important;
+        height: 155px !important;
+        margin-top: 10px;
+    }
+    .kyrsi .container .kurs .scnd .ras{
+        margin-top: 20px;
+    }
+    .kyrsi .container .btn .all{
+        width: 200px;
+        height: 45px;
+    }
+    .karyera {
+        margin-top: 0;
+    }
+    .kyrsi .container .kurs .thd .hiit {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .howwork .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .howwork .container .big{
+        font-size: 22px;
+    }
+    .howwork .container .work{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .howwork .container .work h2,h3,h4{
+        text-align: center !important;
+    }
+    .howwork .container .work h2{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .personal .container{
+        padding-top: 50px;
+    }
+    .personal .container .persobalpl{
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .personal .container .opis{
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .personal .container .nametel{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        
+    }
+    .personal .container .nametel .name{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .personal .container .nametel .name input{
+        width: 100%;
+    }
+    .personal .container .nametel .tel{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .personal .container .nametel .tel input{
+        width: 100%;
+    }
+    .personal .container .em{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .personal .container .em input{
+        width: 100%;
+    }
+    .header .container .icons .icon{
+        padding: 15px;
+    }
+    .personal .container .our{
+        display: flex;
+        justify-content: start;
+    }
+    .personal .container .check{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .personal .container .continue{
+        width: 200px !important;
+    }
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .container .soc{
+        width: calc(100%/4);
+    }
 }
