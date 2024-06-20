@@ -89,3 +89,35 @@ html{
     height: 60px;
     margin-bottom: 120px;
 }
+
+/*Главная*/
+.kurs .container{
+    display: flex;
+    justify-content: space-between;
+}
+.kurs .container .fitnes .fitness-platform{
+    font-family:'Montserrat';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+
+.kurs .container .fitnes .grind{
+    font-family:'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+   
+}
+
+
+.kurs .container .woman-fitness{
+    width: 612px;
+    height: 500px;
+    background: url(../img/mypht.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
+}
