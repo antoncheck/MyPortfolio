@@ -121,8 +121,7 @@ html{
 }
 /*Скилы*/
 .kyrsi{
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin: 60px 0 60px 0;
 }
 .kyrsi .container{
     display: flex;
@@ -155,7 +154,7 @@ html{
     
 }
 .kyrsi .container .kurs .frst .woman-yo{
-    background: url(../img/1.png);
+    background: url();
     width: 186px;
     height: 238px;
     margin-top: 10px;
@@ -223,4 +222,49 @@ html{
     font-size: 22px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+/*Портфолио*/
+.howwork{
+    margin-top: 150px;
+}
+.howwork .container{
+    display: flex;
+    flex-direction: column;
+}
+.howwork .container .big{
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+.howwork .container .work{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.howwork .container .work .n1 h3{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.howwork .container .work .n1 h4{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.howwork .container .work .n1 h4{
+    
+}
+
+
+.n1{
+    width: 100px;
+}
+
+.n1 img {
+    max-width: 100%;
 }
