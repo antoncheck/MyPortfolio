@@ -1,0 +1,91 @@
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Manrope' sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+
+}
+
+html{
+    background: rgb(240,243,245);
+    background: linear-gradient(90deg, rgba(240,243,245,1) 0%, rgba(230,235,240,1) 100%);
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .container .razdel {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+ 
+
+}
+
+.header .container .razdel a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+.header .container .razdel .razdel-click1:hover{
+    color: rgb(255, 0, 0);
+    transition: .3s;
+
+}
+.header .container .razdel .razdel-click2:hover{
+    color: rgb(255, 0, 0);
+    transition: .3s;
+
+}
+.header .container .razdel .razdel-click3:hover{
+    color: rgb(255, 0, 0);
+    transition: .3s;
+
+}
+.header .container .razdel .razdel-click4:hover{
+    color: rgb(255, 0, 0);
+    transition: .3s;
+
+}
+.header .container .razdel .razdel-click5:hover{
+    color: rgb(255, 0, 0);
+    transition: .3s;
+
+}
+.header .container .icons .icon{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+   
+}
+.header .container .icons .icon .fa-sign-in{
+    color: black;
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .icons .icon:hover .fa-sign-in{
+    color: #ff0000;
+    transition: .3s;  
+}
+.header .container{
+    height: 60px;
+    margin-bottom: 120px;
+}
